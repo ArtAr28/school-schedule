@@ -1,10 +1,10 @@
 <?php
 /**
- * Plugin Name: Klaipėdos „Ąžuolyno“ gimnazijos tvarkaraščių valdymo sistema
- * Plugin URI: https://www.azuolynogimnazija.lt/
- * Description: Klaipėdos „Ąžuolyno“ gimnazijos tvarkaraščių valdymo sistema
- * Version: 6.3.3.5
- * Author: Artiom Ariničev 2026
+ * Plugin Name: Gimnazijos tvarkaraščių valdymo sistema
+ * Plugin URI: nera
+ * Description: Gimnazijos tvarkaraščių valdymo sistema
+ * Version: 6.3.3.6
+ * Author: ArtAr28 2026
  * Requires at least: 6.0
  * Requires PHP: 8.0
  * Text Domain: school-schedule
@@ -12,10 +12,10 @@
 
 if (!defined('ABSPATH')) exit;
 
-define('SS_VERSION',     '6.3.3.5');
+define('SS_VERSION',     '6.3.3.6');
 define('SS_PLUGIN_DIR',  plugin_dir_path(__FILE__));
 define('SS_PLUGIN_URL',  plugin_dir_url(__FILE__));
-define('SS_SCHOOL_NAME', 'Klaipėdos „Ąžuolyno“ gimnazija');
+define('SS_SCHOOL_NAME', 'Gimnazija');
 
 require_once SS_PLUGIN_DIR . 'includes/class-time.php';
 require_once SS_PLUGIN_DIR . 'includes/class-mail.php';
