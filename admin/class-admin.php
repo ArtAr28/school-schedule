@@ -61,7 +61,7 @@ class SS_Admin {
         }
 
         // ── Atskiras "Paskyros" meniu ────────────────────────────────────
-        // „Mokiniai“ ir „Mokytojų paskyros“ perkelti čia (anksčiau buvo po „Tvarkaraštis“).
+        // „Mokiniai“ ir „Mokytojų paskyros“ perkelti čia (anksčiau buvo po Tvarkaraštis).
         add_menu_page(
             'Paskyros', 'Paskyros', 'manage_options',
             'ss-accounts', array(__CLASS__, 'page_accounts'),
